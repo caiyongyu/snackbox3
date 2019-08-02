@@ -14,13 +14,13 @@
   "list": [
     {
       "pagePath": "pages/index/index",
-      "text": "首页",
+      "text": "电影",
       "selectedIconPath": "images/movies.png",
       "iconPath": "images/movied.png"
     },
     {
       "pagePath": "pages/mine/mine",
-      "text": "我的",
+      "text": "的说法是大家看法还是",
       "selectedIconPath": "images/mines.png",
       "iconPath": "images/mined.png"
     }
