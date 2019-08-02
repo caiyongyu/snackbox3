@@ -17,7 +17,7 @@ page {
   transition: all 300ms ease;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: flex-start;
   box-sizing: border-box;
 }
 

@@ -1,0 +1,106 @@
+/* pages/home/home.wxss */
+
+.header {
+  height: 170rpx;
+  background-color: #ccc;
+  position: relative;
+}
+
+.image-1 {
+  margin: 30rpx;
+  width: 120rpx;
+  height: 120rpx;
+  background-color: red;
+}
+
+.testMessage {
+  position: absolute;
+  top: 30rpx;
+  left: 170rpx;
+  font-size: 30rpx;
+  color: #444;
+}
+
+.iphoneImage {
+  width: 80rpx;
+  height: 80rpx;
+  float: right;
+  margin: 50rpx;
+}
+.bedRoom{
+  height: 140rpx;
+  position: relative;
+}
+.boxImage{
+  margin: 30rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+.bedRoomBox{
+  position: absolute;
+   top: 15rpx;
+  left: 170rpx;
+  font-size: 35rpx;
+}
+.buy{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 550rpx;
+  height: 60rpx;
+  background-color: rgba(241, 243, 119, 0.305);
+  text-align: center;
+  line-height: 60rpx;
+  margin: 10rpx;
+  font-size: 30rpx;
+}
+.leftHron {
+  width: 30rpx;
+  height: 30rpx;
+  position: absolute;
+  top: 0;
+  left: 200rpx;
+  margin:8rpx;
+}
+.rightHron{
+    width: 30rpx;
+  height: 30rpx;
+  position: absolute;
+  bottom: 0;
+  right: 200rpx;
+  margin:8rpx;
+}
+.other{
+  height: 140rpx;
+  border-bottom: 1px solid #B0B0B0;
+  background-color: #ccc;
+  text-align: center;
+  line-height: 150rpx;
+  color: rgba(3, 44, 230, 0.774)
+}
+.info{
+  height: 140rpx;
+  border-bottom: 1px solid #B0B0B0;
+  position: relative
+
+}
+
+.background{
+  width: 100rpx;
+  height: 100rpx;
+  margin: 20rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+.backgroundcolor1{
+  background-color: blue;
+}
+.backgroundcolor2{
+  background-color: green;
+}
+.backgroundcolor3{
+  background-color: blueviolet;
+}
+.backgroundcolor4{
+  background-color: darkorange;
+}

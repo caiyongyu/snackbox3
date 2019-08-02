@@ -1,0 +1,13 @@
+/* pages/address/address.wxss */
+@import "../lib/weui.wxss";
+.picker{
+   padding:10px;
+}
+.section__title{
+  padding: 10px;
+}
+.page-section{
+  margin-bottom: 20rpx;
+  padding: 10px;
+}
+button{margin: 10px}

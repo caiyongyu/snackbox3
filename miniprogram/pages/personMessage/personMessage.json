@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "van-field": "vant-weapp/field",
+    "van-button": "vant-weapp/button",
+    "van-picker": "vant-weapp/picker",
+    "van-popup": "vant-weapp/popup"
+  },
+  "navigationBarTitleText": "个人中心"
+}

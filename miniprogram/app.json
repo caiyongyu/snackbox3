@@ -1,30 +1,42 @@
 {
-"pages": [
-  "pages/index/index",
-  "pages/mine/mine",
-],
-"window": {
-  "backgroundColor": "#F6F6F6",
-  "backgroundTextStyle": "light",
-  "navigationBarBackgroundColor": "#e54847",
-  "navigationBarTitleText": "豆瓣抖抖asddsadasd抖",
-  "navigationBarTextStyle": "white"
-},
-"tabBar": {
-  "list": [
-    {
-      "pagePath": "pages/index/index",
-      "text": "电影地方而菲尔",
-      "selectedIconPath": "images/movies.png",
-      "iconPath": "images/movied.png"
-    },
-    {
-      "pagePath": "pages/mine/mine",
-      "text": "的说法是大家看法还是",
-      "selectedIconPath": "images/mines.png",
-      "iconPath": "images/mined.png"
-    }
-  ]
-},
-"sitemapLocation": "sitemap.json"
+  "pages": [
+    "pages/home/home",
+    "pages/order/order",
+    "pages/mine/mine",
+    "pages/personMessage/personMessage",
+    "pages/lib/lib",
+    "pages/address/address",
+    "pages/bedroomBuy/bedroomBuy"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTitleText": "黑大便利盒子",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#f00",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-actived.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "images/order.png",
+        "selectedIconPath": "images/order-actived.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine-actived.png"
+      }
+    ]
+  }
 }

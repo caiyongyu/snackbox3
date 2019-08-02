@@ -1,0 +1,35 @@
+<view class='header'>
+  <view class="text1">验证手机号</view>
+</view>
+
+
+<van-field class="inputTelephone" label="手机号码" value="{{ telephone }}" placeholder="请输入手机号" bind:change="onTelephoneChange" />
+
+<van-field value="{{ verify }}" center clearable label="短信验证码" placeholder="请输入短信验证码">
+  <van-button slot="button" size="small" type="primary">发送验证码</van-button>
+</van-field>
+
+<button class="btn" type="primary" size="{{primarySize}}"  bindtap="primary"> 验证手机号码 </button>
+
+<view class='baseMessage'>基本信息</view>
+<view class="userName">
+  <text>昵称</text>
+  <open-data class="personUserName" type="userNickName"></open-data>
+</view>
+<view class='userImage'>
+  <text>头像</text>
+  <open-data class="personUserImage" type="userAvatarUrl"></open-data>
+</view>
+
+<view class="section">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+    选择学校：{{array[index]}}
+    </view>
+  </picker>
+</view>
+
+<button class="btn" type="primary" size="{{primarySize}}"  bindtap="primary"> 确定 </button>
+
+
+

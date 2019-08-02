@@ -6,7 +6,9 @@
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"autoAudits": false,
+		"nodeModules": true
 	},
 	"appid": "wxfb4972d8a5fd6086",
 	"projectname": "red2",

@@ -1,0 +1,48 @@
+/* pages/personMessage/personMessage.wxss */
+@import "../lib/weui.wxss";
+page{
+  background-color:#ccc;
+}
+.header{
+  height: 80rpx; 
+  line-height: 150rpx;
+  padding:10px;
+}
+.baseMessage{
+  height: 80rpx; 
+  line-height: 150rpx;
+  padding:10px;
+}
+.userName {
+  height: 100rpx;
+  background-color:white;
+  border-bottom: 1px solid #B0B0B0;
+  line-height: 100rpx; 
+}
+.personUserName{
+  margin-left: 100rpx;
+}
+.userImage{
+  height: 100rpx;
+  background-color:white;
+  border-bottom: 1px solid #B0B0B0;
+  line-height: 100rpx;
+  position: relative;
+}
+.personUserImage{
+  border-radius: 50%;
+  overflow: hidden;
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute;
+  background: yellow;
+  left: 220rpx;
+  top: 10rpx;
+}
+text{padding:10px;}
+.picker{
+    padding:10px;
+    border-bottom: 1px solid #B0B0B0;
+    background-color: white
+}
+.btn {margin: 10px;}

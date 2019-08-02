@@ -1,0 +1,64 @@
+<!-- 遍历获取的数据 -->
+<!-- <view class="heidabox" wx:for="{{heidaboxMessage}}" wx:key="{{index}}">
+<view class='aid'>{{item.userInfo.appId}}</view>
+<view class='0id'>{{item.userInfo.openId}}</view>
+</view> -->
+
+<view class='header'>
+<image class='image-1'></image>
+<view class='testMessage'>
+<view>黑大便利盒子</view>
+<view>手机：13351985404</view>
+<view>微信：a535655762</view>
+</view>
+<image class='iphoneImage' src='../../images/iphone.png'></image>
+</view>
+<view class='bedRoom'>
+<image class='boxImage' src='../../images/box.png'></image>
+<view class='bedRoomBox'>A2-120零食盒子</view>
+<view class='buy'>
+<image class='leftHron' src='../../images/leftHorn.png'></image>
+<view class="buyHandle" bindtap='gotoBedroomBuy'>点击选购</view>
+<image class='rightHron' src='../../images/rightHorn.png'></image>
+</view>
+</view>
+
+<view class='other'>
+<view>扫其他二维码  新申请零食盒子</view>
+</view>
+<view class='info'>
+<view class='background,backgroundcolor1'>水果</view>
+<view class='bedRoomBox'>水果测试版</view>
+<view class='buy'>
+<image class='leftHron' src='../../images/leftHorn.png'></image>
+<view class="buyHandle">点击选购</view>
+<image class='rightHron' src='../../images/rightHorn.png'></image>
+</view>
+</view>
+<view class='info'>
+<view class='background,backgroundcolor2'>木造</view>
+<view class='bedRoomBox'>木造车站</view>
+<view class='buy'>
+<image class='leftHron' src='../../images/leftHorn.png'></image>
+<view class="buyHandle">点击选购</view>
+<image class='rightHron' src='../../images/rightHorn.png'></image>
+</view>
+</view>
+<view class='info'> 
+<view class='background,backgroundcolor3'>店铺</view>
+<view class='bedRoomBox'>店铺测试版</view>
+<view class='buy'>
+<image class='leftHron' src='../../images/leftHorn.png'></image>
+<view class="buyHandle">点击选购</view>
+<image class='rightHron' src='../../images/rightHorn.png'></image>
+</view>
+</view>
+<view class='info'>
+<view class='background,backgroundcolor4'>校园</view>
+<view class='bedRoomBox'>校园店铺测试版</view>
+<view class='buy'>
+<image class='leftHron' src='../../images/leftHorn.png'></image>
+<view class="buyHandle">点击选购</view>
+<image class='rightHron' src='../../images/rightHorn.png'></image>
+</view>
+</view>
