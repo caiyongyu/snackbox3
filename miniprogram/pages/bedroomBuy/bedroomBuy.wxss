@@ -1,1 +1,27 @@
-/* pages/bedroomBuy/bedroomBuy.wxss */
+.header {
+  height: 170rpx;
+  background-color: #ccc;
+  position: relative;
+}
+
+.image-1 {
+  margin: 30rpx;
+  width: 120rpx;
+  height: 120rpx;
+  background-color: red;
+}
+
+.testMessage {
+  position: absolute;
+  top: 30rpx;
+  left: 170rpx;
+  font-size: 30rpx;
+  color: #444;
+}
+
+.iphoneImage {
+  width: 80rpx;
+  height: 80rpx;
+  float: right;
+  margin: 50rpx;
+}

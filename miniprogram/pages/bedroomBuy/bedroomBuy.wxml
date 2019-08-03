@@ -1,2 +1,23 @@
-<!--pages/bedroomBuy/bedroomBuy.wxml-->
-<text>pages/bedroomBuy/bedroomBuy.wxml</text>
+<view class='header'>
+<image class='image-1'></image>
+<view class='testMessage'>
+<view>黑大便利盒子</view>
+<view>手机：13351985404</view>
+<view>微信：a535655762</view>
+</view>
+<image class='iphoneImage' src='../../images/iphone.png'></image>
+</view>
+<van-notice-bar
+  scrollable="false"
+  text="足协杯战线连续第2年上演广州德比战"
+/>
+<van-notice-bar
+  text="足协杯战线连续第2年上演广州德比战，上赛季半决赛上恒大以两回合5-3的总比分淘汰富力。"
+/>
+<van-tree-select
+  items="{{ items }}"
+  main-active-index="{{ mainActiveIndex }}"
+  active-id="{{ activeId }}"
+  bind:click-nav="onClickNav"
+  bind:click-item="onClickItem"
+/>
