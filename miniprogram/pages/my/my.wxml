@@ -1,0 +1,53 @@
+<view class='header'>
+<view class='userMassage'>
+<open-data class="userImage" type="userAvatarUrl" ></open-data>
+</view>
+<open-data class="userName" type="userNickName"></open-data>
+<view class="sexN">性别：</view>
+<open-data class="sex" type="userGender" lang="zh_CN"></open-data>
+</view>
+ 
+ <view class='userMassageInfo'>
+<view class="Info-1" bindtap='gotoPersonMessage'>
+ <image class='personMessageImage' src='../../images/personMessage.png'></image>
+ <view class='person'>个人信息</view>
+ <image class='right' src='../../images/right.png'></image>
+ <view class='number'>手机号码</view>
+</view>
+
+<view class="Info-2">
+ <image class='balanceImage' src='../../images/balance.png'></image>
+ <view class='cardBalance'>零食卡余额</view>
+ <image class='right' src='../../images/right.png'></image>
+ <view class='money'>0元</view>
+</view>
+
+<view class="Info-3">
+ <image class='boxImage' src='../../images/box.png'></image>
+ <view class='boxbound'>绑定零食盒子</view>
+ <image class='right' src='../../images/right.png'></image>
+ <view class="boxbound1">已绑定</view>
+</view>
+
+<view class="Info-4">
+ <image class='discountImage' src='../../images/discount.png'></image>
+ <view class='discountcard'>优惠劵</view>
+ <image class='right' src='../../images/right.png'></image>
+</view>
+
+<view class="Info-5" bindtap='gotoaddress'>
+ <image class='carImage' src='../../images/car.png'></image>
+ <view class='adress'>修改收货地址</view>
+ <image class='right' src='../../images/right.png'></image>
+ <view class="adressChange">添加、修改</view>
+</view>
+
+<view class='Info-6'>
+<image class="mail1" src='../../images/mail1.png'></image>
+<text class='unsendText'>未发货</text>
+<image class="mail2" src='../../images/mail2.png'></image>
+<text class='sendText'>配送中...</text>
+<image class="mail3" src='../../images/mail3.png'></image>
+<text class='endsendText'>已配送</text>
+</view>
+ </view>

@@ -1,0 +1,216 @@
+page{
+  background-color:#ccc;
+}
+.header {
+  position: relative;
+  height: 150rpx;
+  background-color: white;
+  border-bottom: 1px solid #B0B0B0;
+  margin-bottom: 30rpx;
+}
+.userMassage {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 120rpx;
+  height: 120rpx;
+  position: absolute;
+  background: yellow;
+  left: 40rpx;
+  top: 20rpx;
+}
+ .userName {
+   position: absolute;
+   left: 200rpx;
+   top: 20rpx;
+   line-height: 120rpx;
+ }
+ .sex{
+   position: absolute;
+   top: 100rpx;
+   left: 300rpx;
+   color: #999999;
+ }
+ .sexN{
+   position: absolute;
+   top: 100rpx;
+   left: 200rpx;
+   color: #999999
+ }
+
+.Info-1 {
+  height: 100rpx;
+  background-color:white;
+  border-bottom: 1px solid #B0B0B0;
+  line-height: 100rpx;
+}
+.personMessageImage{
+ float: left;
+  width: 60rpx;
+  height: 60rpx;
+  margin-top:16rpx;
+  padding: 8rpx;
+}
+.person{
+  float: left;
+}
+.number{
+  float: right;
+  color: #666;
+}
+.right{
+  float: right;
+  width: 40rpx;
+  height: 40rpx;
+  margin-top:33rpx;
+}
+
+.Info-2 {
+  height: 100rpx;
+  background-color:white;
+  border-bottom: 1px solid #B0B0B0;
+  line-height: 100rpx;
+}
+.balanceImage{
+ float: left;
+ width: 60rpx;
+ height: 60rpx;
+ margin-top:16rpx;
+ padding: 8rpx;
+}
+.cardBalance{
+  float: left;
+}
+.money{
+  float: right;
+  color: #666;
+}
+.right{
+  float: right;
+  width: 40rpx;
+  height: 40rpx;
+  margin-top:33rpx;
+}
+
+.Info-3 {
+  height: 100rpx;
+  background-color:white;
+  border-bottom: 1px solid #B0B0B0;
+  line-height: 100rpx;
+}
+.boxImage{
+ float: left;
+ width: 60rpx;
+ height: 60rpx;
+ margin-top:16rpx;
+ padding: 8rpx;
+}
+.boxbound{
+  float: left;
+}
+.boxbound1{
+  float: right;
+  color: #666;
+}
+.right{
+  float: right;
+  width: 40rpx;
+  height: 40rpx;
+  margin-top:33rpx;
+}
+
+.Info-4 {
+  height: 100rpx;
+  background-color:white;
+  border-bottom: 1px solid #B0B0B0;
+  line-height: 100rpx;
+}
+.discountImage{
+ float: left;
+ width: 60rpx;
+ height: 60rpx;
+ margin-top:16rpx;
+ padding: 8rpx;
+}
+.discountcard{
+  float: left;
+}
+.right{
+  float: right;
+  width: 40rpx;
+  height: 40rpx;
+  margin-top:33rpx;
+}
+
+.Info-5 {
+  height: 100rpx;
+  background-color:white;
+  border-bottom: 1px solid #B0B0B0;
+  line-height: 100rpx;
+  margin-bottom: 40rpx;
+}
+.carImage{
+ float: left;
+ width: 60rpx;
+ height: 60rpx;
+ margin-top:16rpx;
+ padding: 8rpx;
+}
+.adress{
+  float: left;
+}
+.adressChange{
+  float: right;
+  color: #666;
+}
+.right{
+  float: right;
+  width: 40rpx;
+  height: 40rpx;
+  margin-top:33rpx;
+}
+
+.Info-6 {
+  height: 200rpx;
+  background-color:white;
+  border-bottom: 1px solid #B0B0B0;
+  line-height: 100rpx;
+  position: relative;
+}
+
+image{
+  width: 80rpx;
+  height: 80rpx;
+}
+ .mail1{
+  margin-left: 60rpx;
+  margin-top: 30rpx;
+}
+.unsendText{
+  position: absolute;
+   left: 60rpx;
+   top: 70rpx;
+   font-size: 30rpx;
+   color: green
+}
+ .mail2{
+  margin-left: 180rpx;
+  margin-top: 30rpx;
+}
+.sendText{
+  position: absolute;
+   left: 310rpx;
+   top: 70rpx;
+   font-size: 30rpx;
+   color: green
+}
+ .mail3{
+  margin-left: 180rpx;
+  margin-top: 30rpx;
+}
+.endsendText{
+  position: absolute;
+   left: 570rpx;
+   top: 70rpx;
+   font-size: 30rpx;
+   color: green
+}

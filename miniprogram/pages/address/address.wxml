@@ -1,0 +1,18 @@
+<!--pages/address/address.wxml-->
+<view class="section">
+  <view class="section__title">省市区选择</view>
+  <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+    <view class="picker">
+      当前选择：{{region[0]}}，{{region[1]}}，{{region[2]}}
+    </view>
+  </picker>
+  </view>
+
+<view class="page-body">
+  <view class="page-section">
+    <view class="weui-cells__title">请输入详细地址</view>
+        <input class="weui-input" auto-focus placeholder="内容"/>
+    </view>
+  </view>
+
+  <button  type="primary" size="{{primarySize}}"  bindtap="primary"> 确定 </button>
